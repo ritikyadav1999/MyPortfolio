@@ -1,41 +1,49 @@
-# Portfolio
+# 🌐 Ritik Yadav's Developer Portfolio
 
-Minimalistic and fully responsive portfolio website inspired from Seán Halpin's design. Beautifully crafted with subtle yet elegant animations that bring the UI to life.
-<br />
+This is my personal developer portfolio, built to reflect my technical strengths, design sensibilities, and professional journey. I’m **Ritik Yadav**, currently working as an **Application Developer at IBM**, with a deep passion for building modern, responsive web applications with clean UI/UX and impactful user experience.
+
+This site is not just a digital resume — it's a full-stack project built from the ground up using modern technologies and principles like component-based design, animation, SEO, and performance optimization.
+
+---
+
+### 🧠 Purpose of the Project
+
+As a developer who believes in “learning by building,” I created this portfolio to:
+
+- ✅ Showcase my best work and engineering skills
+- ✅ Build a pixel-perfect, performant UI using modern front-end tools
+- ✅ Create a central hub for my blog, project case studies, and contact information
+- ✅ Strengthen my grasp on animation, layout systems, and developer-focused design
+- ✅ Prepare for remote roles in top-tier companies in US/EU markets
+
+---
+
+## 🛠️ Tech Stack
+
+This project is built using a modern frontend stack with focus on performance, animation, and developer experience:
 
 <div style="display: flex; justify-content: start; align-items: center; column-gap: 20px">
     <img src="https://seeklogo.com/images/N/next-js-icon-logo-EE302D5DBD-seeklogo.com.png" width="64" alt="next.js"/>
-    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="64" alt="supabase"/>
-    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width="64" alt="supabase"/>
+    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="64" alt="React"/>
+    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width="64" alt="Typescript"/>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="64" alt="tailwind css"/>
     <img src="https://cdn.worldvectorlogo.com/logos/framer-motion.svg" width="64" alt="framer motion"/>
 </div>
 
+- ⚛️ [**Next.js 13**](https://nextjs.org/): App Router + SSR + Image Optimization
+- 💡 [**React 18**](https://react.dev): Component-based structure, client-server separation
+- 🎨 [**Tailwind CSS 3**](https://tailwindcss.com): Utility-first styling with great responsiveness
+- 🔧 [**Typescript 5**](https://www.typescriptlang.org): Type safety for all components
+- 🎞️ [**Framer Motion**](https://www.framer.com/motion/): Smooth animations for page transitions and UI elements
 
-Powered by [NextJS 13](https://nextjs.org/), [React 18](https://react.dev), [Typescript 5](https://www.typescriptlang.org), [Tailwind CSS 3](https://tailwindcss.com), [Framer Motion](https://www.framer.com/motion/)
+---
 
-<hr />
+## 🧪 Developer Setup
 
-## This section is for developers only
-
-## Getting Started
-
-First, run the development server:
+To run the project locally:
 
 ```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and 
-load ***Inter*** and ***Sacramento***, a custom Google Font.
-
-
-## Colour Palette
-
-<img src="color-palette.png" alt="Colour Palette for Portfolio" style="border-radius: 1rem; width: 75%;"/>
