@@ -62,36 +62,32 @@ const ProjectPage = ({ params }: ProjectPageProps) => {
   return (
     <>
       {/* Dynamic Hero Section */}
-      <div className={cn('relative w-full min-h-[90vh] h-[90vh] flex flex-col justify-center items-center', heroBg)}>
-        <div className="flex flex-col justify-center items-center h-full w-full absolute top-0 left-0 right-0 bottom-0 z-10">
-          <motion.h1
-            initial={{ y: -50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1, type: 'spring' }}
-            className={cn('text-7xl md:text-8xl flex justify-center text-center', themeText, sacramento.className)}
-          >
-            {project.title}
-          </motion.h1>
-          <motion.h2
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.8, type: 'spring' }}
-            className="text-lg md:text-2xl font-light text-center text-gray-600 mt-8 mb-4 max-w-3xl mx-auto"
-          >
-            {project.description}
-          </motion.h2>
-        </div>
-        <div className="absolute bottom-0 left-0 w-full z-0">
-          <Birds />
-          <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1, type: 'spring' }}
-            className="pt-6"
-          >
-            <Waves />
-          </motion.div>
-        </div>
+      <div className={cn('pt-24 w-full min-h-[90vh] flex flex-col items-center justify-center', heroBg)}>
+        <motion.h1
+          initial={{ y: -50, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, type: 'spring' }}
+          className={cn('text-7xl md:text-8xl flex justify-center text-center', themeText, sacramento.className)}
+        >
+          {project.title}
+        </motion.h1>
+        <motion.h2
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.8, type: 'spring' }}
+          className="text-lg md:text-2xl font-light text-center text-gray-600 mt-8 mb-4 max-w-3xl mx-auto"
+        >
+          {project.description}
+        </motion.h2>
+        <Birds />
+        <motion.div
+          initial={{ y: 50, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, type: 'spring' }}
+          className="pt-6 w-full"
+        >
+          <Waves />
+        </motion.div>
       </div>
 
       {/* Tech stack badges below hero */}
