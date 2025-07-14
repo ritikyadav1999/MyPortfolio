@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <g>
+        <linearGradient id="a" x1="226" x2="226" y1="392" y2="112.864" gradientUnits="userSpaceOnUse">
+            <stop stop-opacity="1" stop-color="#d1fae5" offset="0"/>
+            <stop stop-opacity="1" stop-color="#d1fae5" offset="1"/>
+        </linearGradient>
+        <linearGradient id="b" x1="256" x2="256" y1="512" y2="0" gradientUnits="userSpaceOnUse">
+            <stop stop-opacity="1" stop-color="#10b981" offset="0"/>
+            <stop stop-opacity="1" stop-color="#6ee7b7" offset="1"/>
+        </linearGradient>
+        <path fill="url(#a)" d="M256 355 91 270V137.759h330V270zM61 377V127.863c0-8.284-6.716-15-15-15s-15 6.716-15 15V377c0 8.284 6.716 15 15 15s15-6.716 15-15z"/>
+        <path fill="url(#b)" d="M421 270v65a14.999 14.999 0 0 1-10.257 14.23l-150 50a15.005 15.005 0 0 1-9.487 0l-150-50A15 15 0 0 1 91 335v-65l165 55zm-159.251-41.145 241-100c12.335-5.118 12.335-22.591 0-27.709l-241-100a15.002 15.002 0 0 0-11.498 0l-241 100c-12.335 5.118-12.335 22.591 0 27.709l241 100a15.002 15.002 0 0 0 11.498 0zM81 497V397c0-19.33-15.67-35-35-35s-35 15.67-35 35v100c0 8.284 6.716 15 15 15h40c8.284 0 15-6.716 15-15z"/>
+    </g>
+</svg>

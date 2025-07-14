@@ -1,0 +1,46 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #059669;
+  border-radius: 100%;
+  will-change: width, height, transform, border;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.cursor::after,
+.cursor::before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    transform: translate(-50%, -50%);
+    will-change: width, height, transform, border;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.cursor.expand::before {
+    animation: expand 1s ease-in-out forwards;
+    background-color: #059669;
+}
+@keyframes expand {
+    0% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
