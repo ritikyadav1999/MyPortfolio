@@ -22,14 +22,6 @@ As a developer who believes in “learning by building,” I created this portfo
 
 This project is built using a modern frontend stack with focus on performance, animation, and developer experience:
 
-<div style="display: flex; justify-content: start; align-items: center; column-gap: 20px">
-    <img src="https://images.seeklogo.com/logo-png/32/1/next-js-logo-png_seeklogo-321806.png" width="64" alt="next.js"/>
-    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="64" alt="React"/>
-    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" width="64" alt="Typescript"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="64" alt="tailwind css"/>
-    <img src="https://cdn.worldvectorlogo.com/logos/framer-motion.svg" width="64" alt="framer motion"/>
-</div>
-
 - ⚛️ [**Next.js 13**](https://nextjs.org/): App Router + SSR + Image Optimization
 - 💡 [**React 18**](https://react.dev): Component-based structure, client-server separation
 - 🎨 [**Tailwind CSS 3**](https://tailwindcss.com): Utility-first styling with great responsiveness
