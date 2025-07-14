@@ -9,8 +9,8 @@ export const metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://ritikyadav.vercel.app',
-    title: "Aritra Bose - Projects",
-    siteName: 'Aritra Bose',
+    title: "Ritik Yadav",
+    siteName: 'Ritik Yadav',
     description: "A list of projects made by Ritik Yadav",
     images: [
       {

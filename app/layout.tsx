@@ -16,8 +16,8 @@ export const metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://ritikyadav.vercel.app',
-    title: "Aritra Bose - Home",
-    siteName: 'Aritra Bose',
+    title: "Ritik Yadav - Home",
+    siteName: 'Ritik Yadav',
     description: "The official portfolio of Ritik Yadav",
     images: [
       {
